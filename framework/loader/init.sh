@@ -1,4 +1,4 @@
-BASE_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
+BASE_DIR="$(cd "$(dirname "$0")/../../.." && pwd)"
 
 . "$BASE_DIR/framework/core/env.sh"
 . "$BASE_DIR/framework/core/prompt.sh"
