@@ -7,7 +7,6 @@ export OS="BlackArch Linux (ARM)"
 export DISTRO="BlackArch"
 export ARCH="ARM"
 
-export BLACKARCH_ROOT="$HOME/blackarch"
-export BLACKARCH_OPT="$HOME/opt/blackarch"
+export BLACKARCH_OPT="$BLACKARCH_ROOT/opt/blackarch"
 
 export PATH="$BLACKARCH_OPT/bin:$PATH"
