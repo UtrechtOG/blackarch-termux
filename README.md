@@ -1,1 +1,1 @@
-# blackarch-termux
+import (framework/ui/ascii/blackarch.txt)
