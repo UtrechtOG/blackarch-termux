@@ -1,6 +1,4 @@
-BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
+export BLACKARCH_ROOT="$(pwd)"
+export BLACKARCH_OPT="$BLACKARCH_ROOT/opt/blackarch"
 
-export BLACKARCH_ROOT="$BASE_DIR"
-export BLACKARCH_OPT="$BASE_DIR/opt/blackarch"
-
-. "$BASE_DIR/framework/loader/init.sh"
+. "$BLACKARCH_ROOT/framework/loader/init.sh"
